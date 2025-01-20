@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+ <html lang="pl-PL">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formularz o filmach</title>
+    </head>
+<body bgcolor="#CB93FE">
+    <h1>Ankieta o Filmach</h1>
+    <form>
+        <h2>Twój ulubiony film?</h2><br>
+            <input name="film" size="20"><br>
+        <h2>Jego gatunek?</h2><br>
+            <input name="film" size="20" placeholder="Akcja"><br>
+        <h2>Preferowane przez ciebie gatunki?</h2><br>
+            <input type="checkbox" name="film" value="akc"> akcja <input type="checkbox" name="film" value="Sci"> Sci-Fi <input type="checkbox" name="film" value="inn" checked> inny <input type="checkbox" name="film" value="fam"> Familijny <input type="checkbox" name="film" value="kty"> Kryminał<br>
+            <input type="checkbox" name="film" value="hor"> Horror<input type="checkbox" name="film" value="fan"> Fantasy<br>
+            <input type="checkbox" name="film" value="kom"> Komedia<input type="checkbox" name="film" value="his"> Historyczny<br>
+            <input type="checkbox" name="film" value="rom"> Romans<input type="checkbox" name="film" value="psy"> Psychologiczny<br>
+            <input type="checkbox" name="film" value="thr"> Thriller<br>
+        <h2>Wolisz oglądać sam/sama czy z kimś?</h2>
+            <INPUT TYPE="radio" NAME="kto" VALUE="sam"> Sam/Sama
+            <INPUT TYPE="radio" NAME="kto" VALUE="kim"> z Kimś
+            <INPUT TYPE="radio" NAME="kto" VALUE="obo"> Obojętnie
+        <h2>Wjakim języku wolisz oglądać?</h2>
+            <SELECT NAME=dojazd> 
+                <OPTION VALUE=Pol>Polski
+                <OPTION VALUE=Ang>Angielski
+                <OPTION VALUE=Inny>Inny
+            </SELECT> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<b>inny, jaki?</b><br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input name="jezyk" size="10" placeholder="jaki?"><br>
+            <h2>Jak często oglądasz filmy?</h2>
+                <textarea NAME=adres ROWS=5 COLS=30></textarea> 
+            <h2>znapisami czy bez?</h2>
+                <INPUT TYPE="radio" NAME="napisy" VALUE="z" checked> Z napisami<br>
+                <INPUT TYPE="radio" NAME="napisy" VALUE="bez"> Bez napisów<br>
+                <INPUT TYPE="radio" NAME="napisy" VALUE="obo"> nie mam zdania
+            <h2>Ulubiony aktor</h2>
+                <input name="aktor" size="15"><br>
+                <br>
+                <INPUT TYPE="submit" VALUE="Wyślij" ACTION="mailto:dhetmanski11@gmail.com"> 
+                <INPUT TYPE="reset" VALUE="Wyczyść">
+        </form>
+</body>
+</html>
